@@ -9,7 +9,7 @@ import CECore
 import CEDomain
 import Foundation
 
-public struct MPApp {
+public struct CEApp {
     public static func registerInjection() {
         Dependencies.injectCoreDependencies(container: CoreContainer() )
     }
